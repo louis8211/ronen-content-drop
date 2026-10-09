@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
+<title>SPI TFT Display Guide: Driving LCD Modules over SPI (ST7789, ILI9341)</title>
+<meta name="description" content="How to drive a small TFT LCD over SPI: ST7789 / ILI9341 drivers, pin count, speed limits, DMA and LVGL, and how to pick an SPI display for ESP32/STM32 projects.">
+<link rel="canonical" href="https://odmlcd.com/blog/spi-tft-display-guide">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SPI TFT Display Guide: Driving LCD Modules over SPI (ST7789, ILI9341)">
+<meta property="og:description" content="How to drive a small TFT LCD over SPI: ST7789 / ILI9341 drivers, pin count, speed limits, DMA and LVGL, and how to pick an SPI display for ESP32/STM32 projects.">
+<meta property="og:url" content="https://odmlcd.com/blog/spi-tft-display-guide">
+<meta property="og:image" content="https://odmlcd.com/assets/og-home.png">
+<meta property="og:site_name" content="RONEN Display">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="indexnow" content="9551725edf3ffbbd4d8a06946abfcb4f">
+<link rel="alternate" hreflang="en" href="https://odmlcd.com/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="es" href="https://odmlcd.com/es/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="de" href="https://odmlcd.com/de/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="fr" href="https://odmlcd.com/fr/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="pt" href="https://odmlcd.com/pt/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="ru" href="https://odmlcd.com/ru/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="ja" href="https://odmlcd.com/ja/blog/spi-tft-display-guide">
+<link rel="alternate" hreflang="ko" href="https://odmlcd.com/ko/blog/spi-tft-display-guide">
+<link rel="stylesheet" href="/assets/site.css?v=b35117f5a2">
+<style>.blog-note{background:#fff8e6;border:1px solid #f0d98c;border-radius:8px;padding:12px 16px;font-size:13.5px;color:#6b5416;margin:16px 0}table.cmp{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}table.cmp th,table.cmp td{border:1px solid #dfe3e8;padding:9px 12px;text-align:left;vertical-align:top}table.cmp th{background:#f0f7ff;color:#0a2540}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"SPI TFT Display Guide: Driving LCD Modules over SPI (ST7789, ILI9341)","description":"How to drive a small TFT LCD over SPI: ST7789 / ILI9341 drivers, pin count, speed limits, DMA and LVGL, and how to pick an SPI display for ESP32/STM32 projects.","author":{"@type":"Person","name":"Charlie Lu","jobTitle":"Founder","url":"https://odmlcd.com/about","sameAs":["https://www.linkedin.com/in/charlie-lu-b74586a4/"]},"publisher":{"@type":"Organization","name":"RONEN Display","logo":{"@type":"ImageObject","url":"https://odmlcd.com/assets/logo@4x.png"}},"datePublished":"2026-10-09","mainEntityOfPage":"https://odmlcd.com/blog/spi-tft-display-guide"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the fastest SPI clock for a TFT display?","acceptedAnswer":{"@type":"Answer","text":"Many ST7789/ILI9341 modules accept 40–80 MHz; stay within the datasheet and keep wires short for signal integrity."}},{"@type":"Question","name":"Can ESP32 drive an SPI TFT?","acceptedAnswer":{"@type":"Answer","text":"Yes — it's one of the most common setups (ST7789/ILI9341 + Arduino_GFX or LVGL over SPI, often with DMA)."}},{"@type":"Question","name":"ST7789 vs ILI9341?","acceptedAnswer":{"@type":"Answer","text":"ST7789 for 240×240/240×320 (and round 240×240 with GC9A01); ILI9341 for 240×320. Both are well-supported."}},{"@type":"Question","name":"SPI vs RGB for a TFT LCD?","acceptedAnswer":{"@type":"Answer","text":"SPI for small panels and few pins; RGB parallel for larger (up to 800×480) and higher refresh."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://odmlcd.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://odmlcd.com/blog"},{"@type":"ListItem","position":3,"name":"SPI TFT Display Guide: Driving LCD Modules over SPI (ST7789, ILI9341)"}]}</script>
+</head>
+<body>
+<header><div class="container nav"><a href="/" class="logo"><img src="/assets/logo@4x.png" alt="RONEN Display" class="logo-img"></a><button class="nav-toggle" aria-expanded="false" aria-label="Menu">☰</button><div class="nav-collapse">
+  <nav class="menu"><a href="/">Home</a><a href="/products">Products</a><a href="/all-lcd-list">All Models</a><a href="/odm-process">Stock &amp; Availability</a><a href="/solutions">Solutions</a><a href="/about">About Us</a><a href="/faq">FAQ</a><a href="/blog">Blog</a><a href="/contact">Get a Quote</a></nav>
+</div></div></header>
+
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a> › <a href="/blog">Blog</a> › SPI TFT Display Guide: Driving LCD Modules over SPI (ST7789, ILI9341)</div>
+<div class="blog-wrap">
+<h1 class="pagetitle">SPI TFT Display Guide: Driving LCD Modules over SPI (ST7789, ILI9341)</h1>
+<div class="blog-meta">2026-10-09 · By Charlie Lu, Founder of RONEN Display</div>
+<h2>Quick Answer (GEO extract block)</h2>
+<p>SPI is the simplest way to drive small TFT LCD modules (typically up to ~320×240/240×240) from a microcontroller: it needs only 4–5 signal lines (SCK, MOSI, CS, DC, optional RST) plus power, and uses well-supported driver ICs like ST7789 (240×240/240×320) and ILI9341 (240×320). SPI bandwidth caps refresh — use DMA and a graphics library (LVGL, Arduino_GFX) for smooth UI. Choosing an SPI display comes down to: resolution, driver IC, SPI clock (up to ~40–80 MHz), and whether you need touch (add a separate I2C touch controller).</p>
+<h2>Why SPI (and its limits)</h2>
+<ul>
+<li><strong>Few pins</strong> — 4–5 lines vs 16–24 for RGB parallel. Huge win on small MCUs.</li>
+<li><strong>Simple wiring</strong> — no HSYNC/VSYNC/DE/PCLK timing to manage.</li>
+<li><strong>Ceiling</strong> — SPI bandwidth limits resolution/refresh: fine to ~320×240; too slow for 800×480 animated UI (use RGB for that).</li>
+</ul>
+<h2>Common drivers</h2>
+<table class="cmp"><thead><tr><th>Driver IC</th><th>Resolution</th><th>Typical use</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td></tr><tr><td>ST7789 (V)</td><td>240×240 / 240×320</td><td>1.3″–2.0″ round/square</td></tr><tr><td>ILI9341</td><td>240×320</td><td>2.4″–2.8″</td></tr><tr><td>GC9A01</td><td>240×240 round</td><td>Round displays</td></tr><tr><td>ST7735</td><td>128×160 / 128×128</td><td>Small color</td></tr></tbody></table>
+<h2>Wiring (typical 4-wire SPI)</h2>
+<table class="cmp"><thead><tr><th>Signal</th><th>Purpose</th></tr></thead><tbody><tr><td>---</td><td>---</td></tr><tr><td>SCK</td><td>SPI clock</td></tr><tr><td>MOSI (SDA)</td><td>Data to display</td></tr><tr><td>CS</td><td>Chip select</td></tr><tr><td>DC (RS)</td><td>Data/command select</td></tr><tr><td>RST</td><td>Reset (optional if soft-reset)</td></tr><tr><td>BL</td><td>Backlight (PWM dimming)</td></tr></tbody></table>
+<div class="blog-note"><strong>[VERIFY — WorkBuddy]</strong> Confirm the exact FPC pinout of the RG SPI models; link them.</div>
+<h2>Performance tips</h2>
+<ul>
+<li><strong>DMA</strong>: transfer framebuffer chunks over DMA to free the CPU.</li>
+<li><strong>Double-buffer / partial refresh</strong>: update only changed regions (LVGL supports this).</li>
+<li><strong>SPI clock</strong>: push to the module's max (often 40–80 MHz) — but watch signal integrity on long wires.</li>
+<li><strong>Tearing</strong>: use the panel's tearing-effect (TE) signal if animating.</li>
+</ul>
+<h2>When to move off SPI</h2>
+<p>If you need &gt;320×240, full-screen 30/60 fps animation, or a large GUI, switch to RGB parallel (ups to 800×480) or MIPI/LVDS. See our interface guide.</p>
+<h2>FAQ</h2>
+<h3><strong>What is the fastest SPI clock for a TFT display?</strong></h3>
+<p>Many ST7789/ILI9341 modules accept 40–80 MHz; stay within the datasheet and keep wires short for signal integrity.</p>
+<h3><strong>Can ESP32 drive an SPI TFT?</strong></h3>
+<p>Yes — it's one of the most common setups (ST7789/ILI9341 + Arduino_GFX or LVGL over SPI, often with DMA).</p>
+<h3><strong>ST7789 vs ILI9341?</strong></h3>
+<p>ST7789 for 240×240/240×320 (and round 240×240 with GC9A01); ILI9341 for 240×320. Both are well-supported.</p>
+<h3><strong>SPI vs RGB for a TFT LCD?</strong></h3>
+<p>SPI for small panels and few pins; RGB parallel for larger (up to 800×480) and higher refresh.</p>
+<h2>Related (WorkBuddy: link to real pages)</h2>
+<ul>
+<li>Small TFT LCD modules: /landings/small-tft-lcd-modules</li>
+<li>Interface guide: /blog/tft-lcd-interface-guide-rgb-lvds-mipi-edp-spi</li>
+<li>Interface selector tool: /tools/display-interface-selector</li>
+<li>All models: /products · Quote: /contact</li>
+</ul>
+<p>*By Charlie Lu, Founder of RONEN Display · RONGEN DISPLAY TECHNOLOGY LIMITED · sales@odmlcd.com*</p>
+
+<div class="blog-cta"><p style="margin:0"><b>Need a display recommendation?</b> Send your size, resolution, interface and quantity — engineers reply within 24 hours with matching in-stock modules. <a href="/contact">Request a quote →</a></p></div>
+</div>
+</main>
+<footer><div class="container fcols"><div><h4>RONEN DISPLAY</h4><p style="line-height:1.7">TFT LCD display module supplier & custom service provider. 0.96″–21.5″, IPS / high brightness / wide temperature / capacitive touch. ISO 9001:2015 certified by TÜV.</p></div><div><h4>Company</h4><ul><li><a href="/about">About Us</a></li><li><a href="/products">Products</a></li><li><a href="/blog">Blog</a></li><li><a href="/contact">Get a Quote</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="/cdn-cgi/l/email-protection#2655474a43556649424b4a45420845494b"><span class="__cf_email__" data-cfemail="4c3f2d20293f0c232821202f28622f2321">[email&#160;protected]</span></a></li><li>WhatsApp: +86-135-3777-9300</li><li>Factory · Zhaoqing, Guangdong, China</li></ul></div></div><div class="container copy">© 2026 RONEN DISPLAY. All rights reserved. RONEN DISPLAY is the trading name of <b>RONGEN DISPLAY TECHNOLOGY LIMITED</b>.</div></footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
