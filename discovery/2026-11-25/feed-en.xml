@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>RONEN DISPLAY — Industrial TFT LCD Engineering Notes</title>
+  <link>https://odmlcd.com/blog/</link>
+  <description>Selection, interface, reliability and supply notes for industrial TFT LCD modules from RONEN DISPLAY (factory-direct manufacturer with our own production base).</description>
+  <language>en-us</language>
+  <docs>https://www.rssboard.org/rss-specification</docs>
+  <generator>RONEN DISPLAY static feed builder (2026-11-25)</generator>
+  <lastBuildDate>Wed, 25 Nov 2026 13:55:44 GMT</lastBuildDate>
+  <ttl>1440</ttl>
+  <atom:link href="https://odmlcd.com/feed-en.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AMOLED vs TFT LCD: How to Choose for Industrial Use</title>
+    <link>https://odmlcd.com/blog/amoled-vs-tft-lcd</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/amoled-vs-tft-lcd</guid>
+    <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>AMOLED vs TFT LCD compared on contrast, power, color, lifespan, sunlight readability and cost — and why a TFT LCD module is usually the safer choice for industrial products that must run reliably for years.</description>
+  </item>
+  <item>
+    <title>LCD Bonding: OCA vs Air Gap vs Optical</title>
+    <link>https://odmlcd.com/blog/lcd-bonding-oca-air-gap-optical</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/lcd-bonding-oca-air-gap-optical</guid>
+    <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>LCD bonding compared: OCA optical bonding vs air-gap assembly vs liquid optical clear adhesive (LOCA). How each affects contrast, sunlight readability, dust, durability and cost — and which to specify for industrial and outdoor displays.</description>
+  </item>
+  <item>
+    <title>Low-Power Display: MIP vs E-Paper vs Transflective</title>
+    <link>https://odmlcd.com/blog/low-power-display-technology-selection</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/low-power-display-technology-selection</guid>
+    <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How to choose a low-power display for battery-run devices: MIP (memory-in-pixel), e-paper, and transflective TFT compared on power, sunlight readability, color and refresh — and when a high-brightness or transflective TFT module is the better fit.</description>
+  </item>
+  <item>
+    <title>MIP vs E-Paper vs TFT: Low-Power Display Compared</title>
+    <link>https://odmlcd.com/blog/mip-vs-epaper-vs-tft</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/mip-vs-epaper-vs-tft</guid>
+    <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>MIP (memory-in-pixel) vs e-paper vs TFT LCD compared on power, refresh, color and sunlight readability — and how to pick the right low-power display for a battery-run device without guessing.</description>
+  </item>
+  <item>
+    <title>Round vs Bar Display: Choosing a Non-Rectangular LCD</title>
+    <link>https://odmlcd.com/blog/round-vs-bar-display</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/round-vs-bar-display</guid>
+    <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Round vs bar display: how a circular or bar-type LCD changes UI layout, driver integration and enclosure design, and how to choose between them for meters, wearables, audio gear and automotive clusters.</description>
+  </item>
+  <item>
+    <title>Transflective vs Reflective LCD: Sunlight Readability Compared</title>
+    <link>https://odmlcd.com/blog/transflective-vs-reflective-lcd</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/transflective-vs-reflective-lcd</guid>
+    <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Transflective vs reflective LCD: how each handles sunlight, power and indoor use, and when a transflective TFT module is the safer choice for industrial products that must be readable indoors and out.</description>
+  </item>
+  <item>
+    <title>Edge AI HMI Display: What It Is &amp; How to Specify One</title>
+    <link>https://odmlcd.com/blog/edge-ai-hmi</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/edge-ai-hmi</guid>
+    <pubDate>Sat, 07 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>An edge AI HMI display runs on-device inference at the human-machine interface - vision, voice and sensor fusion without a cloud round-trip. Learn what an edge AI HMI is, where it is used, and how to specify compute, display, interface and thermal budget.</description>
+  </item>
+  <item>
+    <title>How an LCD Works: Liquid Crystals, Backlight and TFT Pixels</title>
+    <link>https://odmlcd.com/blog/how-lcd-works</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/how-lcd-works</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How does a liquid crystal display work? A practical walk through backlight, polarisers, TFT pixels and colour filters, and what each layer means when you specify an industrial LCD module.</description>
+  </item>
+  <item>
+    <title>Industrial Control HMI Displays: Custom ODM Selection Guide</title>
+    <link>https://odmlcd.com/blog/industrial-control-hmi-display-odm</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/industrial-control-hmi-display-odm</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>A selection guide for industrial control and HMI displays: sizes, interfaces, touch and cover glass, wide-temperature and high-brightness options, and how custom ODM projects are evaluated.</description>
+  </item>
+  <item>
+    <title>Kinds of Displays: A Practical Taxonomy for Industrial Buyers</title>
+    <link>https://odmlcd.com/blog/kinds-of-displays</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/kinds-of-displays</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Kinds of displays explained for industrial buyers: emissive vs transmissive, TN vs IPS vs VA, rectangular vs round and bar formats, interfaces, touch stacks and environmental grades.</description>
+  </item>
+  <item>
+    <title>LCD Controller Board Selection: Interfaces, Timing and Firmware</title>
+    <link>https://odmlcd.com/blog/lcd-controller-board-selection</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/lcd-controller-board-selection</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How to select an LCD controller or adapter board: input and output interfaces, panel timing, driver IC initialisation, backlight power, EMI and firmware, with an engineering checklist.</description>
+  </item>
+  <item>
+    <title>LCD Panel Failure Modes: Prevention by Specification</title>
+    <link>https://odmlcd.com/blog/lcd-panel-failure-modes</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/lcd-panel-failure-modes</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>An engineering view of LCD panel failure modes for industrial projects: pixel defects, mura, backlight ageing, moisture, ESD, flex cracking and bonding voids, and how to qualify them out at specification stage.</description>
+  </item>
+  <item>
+    <title>What Is an AMOLED Display? Definition and Trade-offs</title>
+    <link>https://odmlcd.com/blog/what-is-amoled-display</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/what-is-amoled-display</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What is an AMOLED display? A plain-language definition of active-matrix organic LED technology, how it differs from a TFT LCD, and the trade-offs that matter in industrial equipment.</description>
+  </item>
+  <item>
+    <title>RG-T035GCIA-02 Application Note: Interface &amp; Replacement</title>
+    <link>https://odmlcd.com/blog/note-rg-t035gcia-02</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/note-rg-t035gcia-02</guid>
+    <pubDate>Thu, 05 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Engineering note on the RG-T035GCIA-02 3.5-inch 480x640 MVA MIPI module: interface, ILI9806E driver guidance, replacement and design-in checks.</description>
+  </item>
+  <item>
+    <title>RG-T043BPI-01ND Application Note: Interface &amp; Replacement</title>
+    <link>https://odmlcd.com/blog/note-rg-t043bpi-01nd</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/note-rg-t043bpi-01nd</guid>
+    <pubDate>Thu, 05 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Engineering guide to the RG-T043BPI-01ND 4.3-inch 480x272 TN TFT: RGB 24-bit 40-pin interface, ILI6485 driver, power sequencing, ESD/EMI and second-source notes.</description>
+  </item>
+  <item>
+    <title>Sunlight Readable Display: What It Is &amp; How to Specify One</title>
+    <link>https://odmlcd.com/blog/sunlight-readable-display</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/sunlight-readable-display</guid>
+    <pubDate>Wed, 04 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>A sunlight readable display stays legible in bright ambient light: typically 1,000+ nits plus anti-reflective cover glass and optical bonding. Learn how a sunlight readable display differs from a standard monitor and how to specify one.</description>
+  </item>
+  <item>
+    <title>China Display Sourcing Checklist for OEM Buyers</title>
+    <link>https://odmlcd.com/blog/china-display-sourcing-checklist</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/china-display-sourcing-checklist</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What overseas OEM buyers should check when sourcing display modules from China: factory audits, certificate scope, sample approval stages, logistics and packing, and how to lock supply continuity before volume production.</description>
+  </item>
+  <item>
+    <title>Custom TFT LCD Module Manufacturing Explained</title>
+    <link>https://odmlcd.com/blog/custom-tft-lcd-module-manufacturing</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/custom-tft-lcd-module-manufacturing</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What a custom TFT LCD module actually involves: glass mask and cell tooling, backlight design, cover glass and touch integration, FPC and driver board, and how tooling ownership shapes cost, lead time and supply continuity.</description>
+  </item>
+  <item>
+    <title>Display Factory Audit Checklist for Buyers</title>
+    <link>https://odmlcd.com/blog/display-factory-audit-checklist</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/display-factory-audit-checklist</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What to inspect on a display factory visit: assembly lines and tooling, incoming and outgoing test equipment, traceability records, certificate scope and the questions that reveal whether the site actually makes the module.</description>
+  </item>
+  <item>
+    <title>Display Module Sourcing Guide for OEM Teams</title>
+    <link>https://odmlcd.com/blog/display-module-sourcing-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/display-module-sourcing-guide</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>An end-to-end sourcing path for display modules: requirement definition, supplier shortlisting, sample approval, incoming inspection, change control and continuity planning — with the checks at each gate.</description>
+  </item>
+  <item>
+    <title>Display Sample Approval Process Before Volume</title>
+    <link>https://odmlcd.com/blog/display-sample-approval-process</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/display-sample-approval-process</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How display samples move from engineering build to production-equivalent build, what each stage proves, what the approval document must record, and how to hold later batches against the approved reference.</description>
+  </item>
+  <item>
+    <title>How TFT LCD Modules Are Made: A Buyer's View</title>
+    <link>https://odmlcd.com/blog/how-tft-lcd-modules-are-made</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/how-tft-lcd-modules-are-made</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How an industrial TFT LCD module is actually built: cell and COG bonding, backlight assembly, cover glass and touch lamination, ageing and reliability screening — and which step decides whether a part can be made again years later.</description>
+  </item>
+  <item>
+    <title>How to Choose a TFT LCD Manufacturer</title>
+    <link>https://odmlcd.com/blog/how-to-choose-tft-lcd-manufacturer</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/how-to-choose-tft-lcd-manufacturer</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>A selection sequence for OEM buyers: define the operating envelope first, then interface and lifetime, then check tooling ownership, continuity commitment and engineering access before comparing quotations.</description>
+  </item>
+  <item>
+    <title>Industrial TFT LCD Manufacturer: How to Verify One</title>
+    <link>https://odmlcd.com/blog/industrial-tft-lcd-manufacturer</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/industrial-tft-lcd-manufacturer</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>The checks that separate a real industrial TFT LCD manufacturer from a trading company: tooling ownership, glass-mask control, process certifications, continuity commitments and what to ask before you commit a production programme.</description>
+  </item>
+  <item>
+    <title>OEM and ODM Display Manufacturing Explained</title>
+    <link>https://odmlcd.com/blog/oem-odm-display-manufacturing</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/oem-odm-display-manufacturing</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>The difference between OEM and ODM display manufacturing, what private tooling and exclusive supply actually buy an OEM, and how to decide which route fits a programme's volume and differentiation needs.</description>
+  </item>
+  <item>
+    <title>What a TFT LCD Quotation Should Include</title>
+    <link>https://odmlcd.com/blog/tft-lcd-quotation-requirements</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/tft-lcd-quotation-requirements</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>The fields a comparable TFT LCD quotation must carry: electrical, optical and mechanical specification, volume and schedule, tooling ownership, committed supply period and notice period, trade terms, packing and warranty.</description>
+  </item>
+  <item>
+    <title>TFT LCD Supplier Selection Criteria for OEM Buyers</title>
+    <link>https://odmlcd.com/blog/tft-lcd-supplier-selection-criteria</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/tft-lcd-supplier-selection-criteria</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Weighted criteria for scoring TFT LCD suppliers: supply continuity, tooling control, quality-system scope, engineering support, change-notice discipline and documentation quality — with why continuity outranks unit price.</description>
+  </item>
+  <item>
+    <title>TFT LCD Supply Agreement Terms That Matter</title>
+    <link>https://odmlcd.com/blog/tft-lcd-supply-agreement-terms</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/tft-lcd-supply-agreement-terms</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>The contract clauses that decide a display programme's risk: committed supply period, end-of-supply notice period, process change notice obligations, quality and warranty scope, tooling ownership and exclusive supply.</description>
+  </item>
+  <item>
+    <title>Capacitive Touch Screen: How It Works and Where It's Used</title>
+    <link>https://odmlcd.com/blog/capacitive-touch-screen-how-it-works</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/capacitive-touch-screen-how-it-works</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Explain how a capacitive touch screen works, the difference between surface and projected capacitive, and where PCAP is used in industrial and commercial products.</description>
+  </item>
+  <item>
+    <title>LVDS, MIPI DSI &amp; HDMI TFT Modules for Embedded HMI</title>
+    <link>https://odmlcd.com/blog/display-interfaces-embedded-hmi-lvds-mipi-hdmi</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/display-interfaces-embedded-hmi-lvds-mipi-hdmi</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Compare LVDS, MIPI DSI and HDMI display interfaces for embedded HMI designs, and learn which module format fits your MCU, enclosure and lifecycle plan.</description>
+  </item>
+  <item>
+    <title>Display Interfaces for Haptic Touch in Custom Displays</title>
+    <link>https://odmlcd.com/blog/display-interfaces-haptic-touch-custom</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/display-interfaces-haptic-touch-custom</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Which display interface works best with haptic touch feedback in custom displays — USB, HDMI, LVDS, MIPI DSI and eDP compared for latency, cabling and integration.</description>
+  </item>
+  <item>
+    <title>High-Brightness Industrial Monitors: Nits Explained</title>
+    <link>https://odmlcd.com/blog/high-brightness-industrial-monitor-nits</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/high-brightness-industrial-monitor-nits</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What 1000, 1500 and 2000 nits mean for industrial monitors, how to choose brightness for indoor, semi-outdoor and outdoor duty, and the role of bonding and cover glass.</description>
+  </item>
+  <item>
+    <title>High-Brightness TFT LCD for Automotive &amp; Avionics</title>
+    <link>https://odmlcd.com/blog/high-brightness-sunlight-readable-automotive-avionics</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/high-brightness-sunlight-readable-automotive-avionics</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Design considerations for high-brightness, sunlight-readable TFT LCD modules in automotive dashboards and avionics displays — brightness, contrast, temperature and qualification.</description>
+  </item>
+  <item>
+    <title>Industrial Touch Screen Monitors: PCAP Integration for HMI</title>
+    <link>https://odmlcd.com/blog/industrial-touch-screen-monitor</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/industrial-touch-screen-monitor</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How industrial touch screen monitors integrate projected capacitive (PCAP) touch, what cover glass and controller choices matter, and how to specify for gloved or wet operation.</description>
+  </item>
+  <item>
+    <title>Medical-Grade TFT LCD: Zero-Pixel-Defect &amp; ISO 13485</title>
+    <link>https://odmlcd.com/blog/medical-grade-tft-lcd-iso-13485</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/medical-grade-tft-lcd-iso-13485</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How to evaluate zero-pixel-defect TFT LCD options for medical-grade panels, what ISO 13485 means for display suppliers, and which specifications matter for clinical devices.</description>
+  </item>
+  <item>
+    <title>MIPI DSI Display Modules for Compact Designs</title>
+    <link>https://odmlcd.com/blog/mipi-dsi-display-module</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/mipi-dsi-display-module</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How MIPI DSI display modules work, where they fit in compact embedded products, and what routing, EMC and lifecycle factors to plan before adoption.</description>
+  </item>
+  <item>
+    <title>Outdoor Industrial Monitors: Sealing &amp; Readability</title>
+    <link>https://odmlcd.com/blog/outdoor-industrial-monitor</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/outdoor-industrial-monitor</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Design factors for outdoor industrial monitors — sunlight readability, ingress sealing, temperature range and lifecycle — for kiosks, transport and field equipment.</description>
+  </item>
+  <item>
+    <title>PCAP vs IR Touch: Comparison for Industrial Displays</title>
+    <link>https://odmlcd.com/blog/pcap-vs-ir-touch</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/pcap-vs-ir-touch</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Compare projected capacitive (PCAP) and infrared (IR) touch technologies for industrial displays — durability, input method, environment and where each fits.</description>
+  </item>
+  <item>
+    <title>Resistive vs Capacitive Touch: Industrial Guide</title>
+    <link>https://odmlcd.com/blog/resistive-vs-capacitive-touch</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/resistive-vs-capacitive-touch</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Compare resistive and capacitive touch screens for industrial applications — input method, environment, durability, multi-touch and total cost — with a decision checklist.</description>
+  </item>
+  <item>
+    <title>RLCD &amp; Reflective Displays: Low-Power Sunlight</title>
+    <link>https://odmlcd.com/blog/rlcd-reflective-display</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/rlcd-reflective-display</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What RLCD (reflective LCD) and reflective display technology offer for sunlight-readable, low-power industrial and wearable applications, and how they compare to transflective and high-brightness TFT.</description>
+  </item>
+  <item>
+    <title>Sunlight-Readable TFT Modules for Kiosks &amp; Signage</title>
+    <link>https://odmlcd.com/blog/sunlight-readable-tft-kiosk-signage-lifecycle</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/sunlight-readable-tft-kiosk-signage-lifecycle</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How to find sunlight-readable TFT LCD modules with the brightness, sealing and long lifecycle needed for self-service kiosks and digital signage — and what to ask suppliers.</description>
+  </item>
+  <item>
+    <title>TFT LCD vs LCD: What the Terms Mean for Buyers</title>
+    <link>https://odmlcd.com/blog/tft-lcd-vs-lcd-meaning</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/tft-lcd-vs-lcd-meaning</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Clarify what TFT LCD and LCD mean, how a TFT backplane differs from other LCD types, and which matters when specifying an industrial display.</description>
+  </item>
+  <item>
+    <title>Transflective LCD Modules for Outdoor Industry</title>
+    <link>https://odmlcd.com/blog/transflective-lcd-outdoor-industrial-1000-nits</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/transflective-lcd-outdoor-industrial-1000-nits</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How transflective LCD modules deliver sunlight-readable, power-efficient displays for outdoor industrial devices, and how to specify brightness, temperature range and sealing.</description>
+  </item>
+  <item>
+    <title>UART TFT LCD Modules for Embedded Systems</title>
+    <link>https://odmlcd.com/blog/uart-tft-lcd-module</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/uart-tft-lcd-module</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>What UART TFT LCD modules are, how serial command displays simplify embedded GUI work, and when to choose UART over SPI, RGB or LVDS interfaces.</description>
+  </item>
+  <item>
+    <title>USB TFT LCD Modules &amp; ESP32 Prototyping</title>
+    <link>https://odmlcd.com/blog/usb-tft-lcd-module-esp32</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/usb-tft-lcd-module-esp32</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How USB TFT LCD modules and ESP32-based setups accelerate display prototyping, what interfaces and drivers to expect, and how to move from breadboard to production.</description>
+  </item>
+  <item>
+    <title>What Is a Resistive Touch Screen? How It Works</title>
+    <link>https://odmlcd.com/blog/what-is-resistive-touch-screen</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/what-is-resistive-touch-screen</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Explain how a resistive touch screen works, where it still fits in industrial use, and how it compares with capacitive touch for gloved or stylus input.</description>
+  </item>
+  <item>
+    <title>10.4 Inch TFT LCD Module: How to Choose</title>
+    <link>https://odmlcd.com/blog/10-4-inch-tft-lcd-module-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/10-4-inch-tft-lcd-module-guide</guid>
+    <pubDate>Sat, 24 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>How to choose a 10.4 inch industrial TFT LCD module: 800x600 vs 1024x768, LVDS vs RGB, 350-1000 nits, wide temperature and open cell (FOG) options — with live catalog parts.</description>
+  </item>
+  <item>
+    <title>12.1 Inch Industrial LCD: Open Cell vs Bonded</title>
+    <link>https://odmlcd.com/blog/12-1-inch-industrial-lcd-module-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/12-1-inch-industrial-lcd-module-guide</guid>
+    <pubDate>Sat, 24 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Choosing a 12.1 inch industrial LCD module: 1280x800 IPS vs 1024x768 vs 800x600, LVDS, 400-1000 nits, and when to buy open cell (FOG) instead of a bonded module — live catalog parts.</description>
+  </item>
+  <item>
+    <title>15.6 Inch Industrial LCD Module: FHD IPS Guide</title>
+    <link>https://odmlcd.com/blog/15-6-inch-industrial-lcd-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/15-6-inch-industrial-lcd-guide</guid>
+    <pubDate>Sat, 24 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>15.6 inch industrial LCD module guide: three standard 1920x1080 IPS models with LVDS, 850-1000 cd/m², capacitive touch option and -30~+85 °C wide temperature — live catalog parts.</description>
+  </item>
+  <item>
+    <title>21.5 Inch Industrial LCD Module: FHD Wide-Temp</title>
+    <link>https://odmlcd.com/blog/21-5-inch-industrial-lcd-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/blog/21-5-inch-industrial-lcd-guide</guid>
+    <pubDate>Sat, 24 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>21.5 inch industrial LCD module guide: RG-T215BFHA-02, 1920x1080 IPS, 1000 cd/m², dual-channel LVDS, -20~+70 °C standard — plus the 18.5 inch 1500-nit wide-temp sibling.</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>RONEN DISPLAY — Notes d’ingénierie TFT LCD industrielles</title>
+  <link>https://odmlcd.com/fr/blog/</link>
+  <description>Sélection, interfaces, fiabilité et approvisionnement des modules TFT LCD industriels RONEN DISPLAY (fabricant en usine propre).</description>
+  <language>fr-fr</language>
+  <docs>https://www.rssboard.org/rss-specification</docs>
+  <generator>RONEN DISPLAY static feed builder (2026-11-25)</generator>
+  <lastBuildDate>Wed, 25 Nov 2026 13:55:44 GMT</lastBuildDate>
+  <ttl>1440</ttl>
+  <atom:link href="https://odmlcd.com/feed-fr.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Afficheur HMI avec IA en périphérie : comment le spécifier</title>
+    <link>https://odmlcd.com/fr/blog/edge-ai-hmi</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/edge-ai-hmi</guid>
+    <pubDate>Sat, 07 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Un afficheur HMI avec IA en périphérie exécute l'inférence sur l'appareil, à l'interface homme-machine - vision, voix et fusion de capteurs sans aller vers le cloud. Découvrez ce qu'est une HMI avec IA en périphérie, où elle est utilisée et comment spécifier le calcul, l'afficheur, l'interface et le budget thermique.</description>
+  </item>
+  <item>
+    <title>Fonctionnement LCD : cristaux et pixels TFT</title>
+    <link>https://odmlcd.com/fr/blog/how-lcd-works</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/how-lcd-works</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Comment fonctionne un afficheur à cristaux liquides ? Un parcours pratique du rétroéclairage, des polariseurs, des pixels TFT et des filtres colorés, et ce que chaque couche implique lors de la spécification d'un module LCD industriel.</description>
+  </item>
+  <item>
+    <title>Afficheurs industriels et IHM : guide de sélection ODM</title>
+    <link>https://odmlcd.com/fr/blog/industrial-control-hmi-display-odm</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/industrial-control-hmi-display-odm</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Un guide de sélection des afficheurs pour le contrôle industriel et les IHM : dimensions, interfaces, tactile et verre de couverture, versions à plage de température étendue et à forte luminosité, ainsi que l'évaluation des projets ODM sur mesure.</description>
+  </item>
+  <item>
+    <title>Types d'afficheurs : guide pour acheteurs industriels</title>
+    <link>https://odmlcd.com/fr/blog/kinds-of-displays</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/kinds-of-displays</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Les types d'afficheurs expliqués aux acheteurs industriels : émissif ou transmissif, TN, IPS ou VA, formats rectangulaires, ronds ou en barre, interfaces, empilements tactiles et classes environnementales.</description>
+  </item>
+  <item>
+    <title>Choix de la carte de pilotage LCD : interfaces et firmware</title>
+    <link>https://odmlcd.com/fr/blog/lcd-controller-board-selection</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/lcd-controller-board-selection</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Comment choisir une carte de pilotage ou adaptatrice LCD : interfaces d'entrée et de sortie, synchronisation de la dalle, initialisation du CI de pilotage, alimentation du rétroéclairage, CEM et micrologiciel, avec une liste de contrôle technique.</description>
+  </item>
+  <item>
+    <title>Modes de défaillance LCD : prévenir par spécification</title>
+    <link>https://odmlcd.com/fr/blog/lcd-panel-failure-modes</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/lcd-panel-failure-modes</guid>
+    <pubDate>Fri, 06 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Analyse technique des modes de défaillance des panneaux LCD en projet industriel : défauts de pixels, mura, vieillissement du rétroéclairage, humidité, ESD, fissures du câble flexible et vides de collage, et comment les exclure par qualification dès la phase de spécification.</description>
+  </item>
+  <item>
+    <title>RG-T035GCIA-02 Note d’application : interface et remplacement</title>
+    <link>https://odmlcd.com/fr/blog/note-rg-t035gcia-02</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/note-rg-t035gcia-02</guid>
+    <pubDate>Thu, 05 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Note technique sur le RG-T035GCIA-02, module MVA MIPI de 3,5 pouces au format 480x640: interface, conseils sur le pilote ILI9806E, remplacement et vérifications de conception.</description>
+  </item>
+  <item>
+    <title>RG-T043BPI-01ND Note d’application</title>
+    <link>https://odmlcd.com/fr/blog/note-rg-t043bpi-01nd</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/note-rg-t043bpi-01nd</guid>
+    <pubDate>Thu, 05 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Guide technique du RG-T043BPI-01ND, TFT TN de 4,3 pouces au format 480x272: interface RVB 24 bits sur 40 broches, pilote ILI6485, séquence d'alimentation et notes sur ESD/EMI et les secondes sources.</description>
+  </item>
+  <item>
+    <title>Afficheur lisible en plein soleil : ce qu'il est et comment le spécifier</title>
+    <link>https://odmlcd.com/fr/blog/sunlight-readable-display</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/sunlight-readable-display</guid>
+    <pubDate>Wed, 04 Nov 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Un afficheur lisible en plein soleil reste lisible en lumière ambiante intense : généralement 1 000+ nits plus un verre de couverture anti-reflet et un optical bonding. Comprenez en quoi il diffère d'un moniteur standard et comment le spécifier.</description>
+  </item>
+  <item>
+    <title>Checklist RFQ d'affichage TFT LCD pour les acheteurs</title>
+    <link>https://odmlcd.com/fr/blog/display-rfq-checklist-for-buyers</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-rfq-checklist-for-buyers</guid>
+    <pubDate>Sat, 31 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Les champs de spécification qu'un RFQ d'affichage TFT LCD doit déclarer : taille et zone active, résolution, interface, tactile, luminosité, température, connecteur, certifications et délai de livraison.</description>
+  </item>
+  <item>
+    <title>IATF 16949 pour les fournisseurs d'affichage automobile</title>
+    <link>https://odmlcd.com/fr/blog/iatf-16949-automotive-display-supplier</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/iatf-16949-automotive-display-supplier</guid>
+    <pubDate>Sat, 31 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Ce que la norme IATF 16949 ajoute à ISO 9001 pour l'affichage automobile : APQP, PPAP, traçabilité par lot et par numéro de série, maîtrise des modifications, MSA et plan de contingence.</description>
+  </item>
+  <item>
+    <title>Checklist d’ approvisionnement en afficheurs en Chine</title>
+    <link>https://odmlcd.com/fr/blog/china-display-sourcing-checklist</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/china-display-sourcing-checklist</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Ce qu un acheteur OEM doit vérifier lors de l’ approvisionnement de modules d’ affichage en Chine : audit d’ usine, perimetre de certification, approbation d’ echantillon, logistique et emballage, et continuité avant le volume.</description>
+  </item>
+  <item>
+    <title>Fabrication de modules TFT LCD sur mesure expliquée</title>
+    <link>https://odmlcd.com/fr/blog/custom-tft-lcd-module-manufacturing</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/custom-tft-lcd-module-manufacturing</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Ce que implique reellement un module TFT LCD sur mesure : masque et outillage de cellule de verre, conception de rétroéclairage, verre de couverture et tactile, FPC et carte contrôleur, et comment la propriété de l’ outillage définit cout, delai et continuité.</description>
+  </item>
+  <item>
+    <title>Checklist d’ audit d’ usine d’ afficheurs</title>
+    <link>https://odmlcd.com/fr/blog/display-factory-audit-checklist</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-factory-audit-checklist</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Ce qu un auditeur doit vérifier lors de l’ audit d’ une usine de modules d’ affichage : site d’ assemblage reel, perimetre de certification, lignes de production, contrôle qualité, gestion PCN et capacité de continuité.</description>
+  </item>
+  <item>
+    <title>Guide d’ approvisionnement en modules d’ affichage</title>
+    <link>https://odmlcd.com/fr/blog/display-module-sourcing-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-module-sourcing-guide</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Un guide d’ approvisionnement de bout en bout pour les modules d’ affichage : definir les besoins, choisir le type de fournisseur, qualifier, echantillonner, puis passer au volume avec une continuité écrite.</description>
+  </item>
+  <item>
+    <title>Processus d’ approbation d’ echantillon d’ afficheur</title>
+    <link>https://odmlcd.com/fr/blog/display-sample-approval-process</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-sample-approval-process</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Comment gerer l’ approbation d’ echantillon d un module d’ affichage : étapes A, B et C, ce que chaque étape prouve, et pourquoi l’ echantillon approuvé devient la référence de tous les lots.</description>
+  </item>
+  <item>
+    <title>Comment sont fabriqués les modules TFT LCD</title>
+    <link>https://odmlcd.com/fr/blog/how-tft-lcd-modules-are-made</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/how-tft-lcd-modules-are-made</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Une vue d’ ensemble des étapes de fabrication d un module TFT LCD : cellule de verre, pilotage du panneau, rétroéclairage, verre de couverture et tactile, FPC et assemblage final, et pourquoi chaque étape fixé la qualité.</description>
+  </item>
+  <item>
+    <title>Comment choisir un fabricant de modules TFT LCD</title>
+    <link>https://odmlcd.com/fr/blog/how-to-choose-tft-lcd-manufacturer</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/how-to-choose-tft-lcd-manufacturer</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Une sequence de sélection pour les acheteurs OEM : definissez d’ abord l’ environnement de fonctionnement, puis interface et durée de vie, puis verifiez la propriété de l’ outillage, l’ engagement de continuité et l’ accès à l’ ingenierie avant de comparer les devis.</description>
+  </item>
+  <item>
+    <title>Fabricant de modules TFT LCD industriels : comment le vérifier</title>
+    <link>https://odmlcd.com/fr/blog/industrial-tft-lcd-manufacturer</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/industrial-tft-lcd-manufacturer</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Comment distinguer un véritable fabricant de modules TFT LCD industriels d un intermédiaire : propriété de l’ outillage, masques de verre, certifications de process et engagements de continuité d’ approvisionnement.</description>
+  </item>
+  <item>
+    <title>Fabrication d’ afficheurs OEM et ODM</title>
+    <link>https://odmlcd.com/fr/blog/oem-odm-display-manufacturing</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/oem-odm-display-manufacturing</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>La différence entre OEM et ODM pour les modules d’ affichage, ce que chaque mode implique en matière d’ outillage, de propriété de conception et de continuité, et comment choisir.</description>
+  </item>
+  <item>
+    <title>Ce qu’ une demande de devis TFT LCD doit contenir</title>
+    <link>https://odmlcd.com/fr/blog/tft-lcd-quotation-requirements</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/tft-lcd-quotation-requirements</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>La structure d’ une demande de devis (RFQ) de modules TFT LCD qui obtient une réponse utilisable : spécifications techniques, volumes, environnement, exigences de qualité et questions de continuité.</description>
+  </item>
+  <item>
+    <title>Critères de sélection des fournisseurs de modules TFT LCD</title>
+    <link>https://odmlcd.com/fr/blog/tft-lcd-supplier-selection-criteria</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/tft-lcd-supplier-selection-criteria</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Les critères concrets à utiliser pour selectionner un fournisseur de modules TFT LCD : propriété de l’ outillage, perimetre de certification, ingenierie, continuité et capacité de réponse, peses pour un programme de production.</description>
+  </item>
+  <item>
+    <title>Clauses d un accord d’ approvisionnement TFT LCD</title>
+    <link>https://odmlcd.com/fr/blog/tft-lcd-supply-agreement-terms</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/tft-lcd-supply-agreement-terms</guid>
+    <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Les clauses qui protegent un programme de production dans un accord d’ approvisionnement TFT LCD : période engagée, preavis de legacy, PCN, prix et propriété de l’ outillage.</description>
+  </item>
+  <item>
+    <title>Modules TFT LVDS, MIPI DSI et HDMI pour HMI embarqué</title>
+    <link>https://odmlcd.com/fr/blog/display-interfaces-embedded-hmi-lvds-mipi-hdmi</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-interfaces-embedded-hmi-lvds-mipi-hdmi</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Comparez les interfaces d'affichage LVDS, MIPI DSI et HDMI pour vos conceptions HMI embarquées, et déterminez quel format de module convient à votre MCU, votre boîtier et votre plan de cycle de vie.</description>
+  </item>
+  <item>
+    <title>Interfaces d'affichage pour retour haptique tactile</title>
+    <link>https://odmlcd.com/fr/blog/display-interfaces-haptic-touch-custom</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-interfaces-haptic-touch-custom</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Quelle interface d'affichage convient le mieux au retour haptique tactile sur écrans sur mesure — USB, HDMI, LVDS, MIPI DSI et eDP comparés pour la latence, le câblage et l'intégration.</description>
+  </item>
+  <item>
+    <title>Moniteurs industriels haute luminosité : ce que signifient les nits</title>
+    <link>https://odmlcd.com/fr/blog/high-brightness-industrial-monitor-nits</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/high-brightness-industrial-monitor-nits</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Ce que signifient 1000, 1500 et 2000 nits pour les moniteurs industriels, comment choisir la luminosité pour un usage en intérieur, semi-extérieur et extérieur, et le rôle du bonding et du verre de couverture.</description>
+  </item>
+  <item>
+    <title>Écrans TFT LCD haute luminosité pour l’automobile et l’avionique</title>
+    <link>https://odmlcd.com/fr/blog/high-brightness-sunlight-readable-automotive-avionics</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/high-brightness-sunlight-readable-automotive-avionics</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Points de conception des modules TFT LCD haute luminosité et lisibles au soleil pour tableaux de bord automobiles et affichages avionique — luminosité, contraste, température et qualification.</description>
+  </item>
+  <item>
+    <title>Modules TFT lisibles au soleil pour kiosques et signalétique</title>
+    <link>https://odmlcd.com/fr/blog/sunlight-readable-tft-kiosk-signage-lifecycle</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/sunlight-readable-tft-kiosk-signage-lifecycle</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Comment trouver des modules TFT LCD lisibles au soleil, avec la luminosité, l’étanchéité et le long cycle de vie nécessaires aux kiosques en libre-service et à la signalétique numérique — et quelles questions poser aux fournisseurs.</description>
+  </item>
+  <item>
+    <title>TFT LCD ou LCD : ce que ces termes signifient</title>
+    <link>https://odmlcd.com/fr/blog/tft-lcd-vs-lcd-meaning</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/tft-lcd-vs-lcd-meaning</guid>
+    <pubDate>Tue, 27 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>« LCD » est la famille technologique, « TFT LCD » en est un type. Pour l’industriel, le vrai choix porte sur l’interface, la luminance, la température et la durée de vie.</description>
+  </item>
+  <item>
+    <title>Inversion des coûts 2026 : la mémoire bat le panneau</title>
+    <link>https://odmlcd.com/fr/blog/display-cost-inversion-2026-memory</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-cost-inversion-2026-memory</guid>
+    <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>La hausse du verre Corning au T4 2026 est monétaire, pas une histoire de demande, et la vraie histoire 2026 est la mémoire : le coût des semi-conducteurs dépasse celui des panneaux sur certains modèles. Ce que cela signifie pour une BOM d'équipement industriel.</description>
+  </item>
+  <item>
+    <title>Délais TFT LCD 2026 : 14 à 26 semaines</title>
+    <link>https://odmlcd.com/fr/blog/industrial-display-lead-times-2026</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/industrial-display-lead-times-2026</guid>
+    <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Chiffres de délais issus de sources publiques pour les panneaux TFT-LCD industriels et HMI embarqués de 5 à 21,5 pouces fin 2026, pourquoi les circuits driver sont le vrai goulot, et quoi verrouiller dans un bon de commande avant que l'allocation ne se resserre.</description>
+  </item>
+  <item>
+    <title>Piloter un TFT LCD avec un MCU : l’interface parallèle 8080</title>
+    <link>https://odmlcd.com/fr/blog/mcu-8080-parallel-interface-tft-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/mcu-8080-parallel-interface-tft-guide</guid>
+    <pubDate>Tue, 22 Sep 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>L’interface parallèle 8080 (bus Intel/MCU) pilote un TFT LCD depuis un microcontrôleur : signaux, temporisation, séquence d’initialisation typique et choix entre 8080, RGB, SPI et pont série.</description>
+  </item>
+  <item>
+    <title>Guide de remplacement TFT LCD 3,5 pouces</title>
+    <link>https://odmlcd.com/fr/blog/3-5-inch-tft-lcd-replacement-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/3-5-inch-tft-lcd-replacement-guide</guid>
+    <pubDate>Fri, 18 Sep 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Modules standard 3,5 pouces de catalogue : 320x240 en TN et IPS, interface RGB. Adaptez taille, résolution et interface, puis vérifiez brochage, timing et rétroéclairage sur échantillon.</description>
+  </item>
+  <item>
+    <title>Écrans pour clusters de véhicule</title>
+    <link>https://odmlcd.com/fr/blog/case-instrument-cluster-display-requirements</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/case-instrument-cluster-display-requirements</guid>
+    <pubDate>Wed, 16 Sep 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Exigences d'affichage pour clusters d'instruments et remplacements de jauges — formats rond, barre et carré, température étendue, lisibilité solaire, panneaux IPS de 3,4 à 4,0 pouces.</description>
+  </item>
+  <item>
+    <title>Hausses de panneaux 2026 et votre BOM</title>
+    <link>https://odmlcd.com/fr/blog/display-panel-price-hike-2026-bom</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/display-panel-price-hike-2026-bom</guid>
+    <pubDate>Wed, 09 Sep 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Retracez la pression des coûts d'affichage 2026 depuis le verre Corning et les contrôleurs IC jusqu'aux fabricants de panneaux et le BOM de votre module, avec des chiffres de sources publiques et des réponses d'ingénierie.</description>
+  </item>
+  <item>
+    <title>Écrans d'affichage numérique</title>
+    <link>https://odmlcd.com/fr/blog/case-digital-signage-display-requirements</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/case-digital-signage-display-requirements</guid>
+    <pubDate>Tue, 04 Aug 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Exigences d'affichage pour affichage numérique — panneaux de 10 à 15 pouces, haute luminance, service 24/7, portrait et paysage, lisibilité du contenu.</description>
+  </item>
+  <item>
+    <title>Tendances de l’industrie d’affichage 2026</title>
+    <link>https://odmlcd.com/fr/blog/2026-display-industry-trends</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/2026-display-industry-trends</guid>
+    <pubDate>Thu, 23 Jul 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Où se dirige le marché de l'affichage en 2026 : stabilisation des prix des panneaux après une longue baisse, l'automobile comme application à la croissance la plus rapide, pénétration de l'OLED en taille moyenne…</description>
+  </item>
+  <item>
+    <title>Remplacement d'écrans LCD Innolux</title>
+    <link>https://odmlcd.com/fr/blog/innolux-lcd-replacement</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/innolux-lcd-replacement</guid>
+    <pubDate>Wed, 08 Jul 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Votre panneau LCD Innolux abandonné ? RONEN fournit des remplacements compatibles à montage direct correspondant au contour, connecteur, brochage et interface — sans refondre la PCB.</description>
+  </item>
+  <item>
+    <title>TFT LCD IPS carré 1,54″ : specs et interface SPI</title>
+    <link>https://odmlcd.com/fr/blog/1-54-inch-square-ips-tft-lcd</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/1-54-inch-square-ips-tft-lcd</guid>
+    <pubDate>Fri, 05 Jun 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Le TFT IPS carré 1,54 pouce est l’écran des objets portables et de l’IoT. Fiche vérifiée, pilotage ESP32/STM32, tactile et approvisionnement 5+ ans.</description>
+  </item>
+  <item>
+    <title>MIPI DSI vs LVDS : lequel choisir</title>
+    <link>https://odmlcd.com/fr/blog/mipi-dsi-vs-lvds-interface-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/mipi-dsi-vs-lvds-interface-guide</guid>
+    <pubDate>Tue, 26 May 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>MIPI DSI vs LVDS expliqué pour les ingénieurs TFT LCD : bande passante, nombre de lignes, broches, longueur de câble, EMI, prise en charge du contrôleur et comment choisir.</description>
+  </item>
+  <item>
+    <title>Remplacement TFT LCD 5 pouces et 5,65 pouces</title>
+    <link>https://odmlcd.com/fr/blog/5-inch-tft-lcd-replacement-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/5-inch-tft-lcd-replacement-guide</guid>
+    <pubDate>Sat, 23 May 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Modules standard 5,0 et 5,65 pouces de catalogue : 480x272 et 640x480 en RGB, dont variantes mode DE. Attention au piège du 640x480 : deux tailles, une seule résolution.</description>
+  </item>
+  <item>
+    <title>EOL des écrans industriels : sécuriser l'approvisionnement</title>
+    <link>https://odmlcd.com/fr/blog/avoid-lcd-eol-disruption</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/avoid-lcd-eol-disruption</guid>
+    <pubDate>Thu, 07 May 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Pourquoi les TFT LCD industriels arrivent en fin de vie, comment lire les délais de notification PCN/EOL, qualifier une seconde source et des remplaçants compatibles brochage, et quoi demander à un fournisseur avant de concevoir.</description>
+  </item>
+  <item>
+    <title>Écrans pour kiosques libre-service</title>
+    <link>https://odmlcd.com/fr/blog/case-self-service-kiosk-display-requirements</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/case-self-service-kiosk-display-requirements</guid>
+    <pubDate>Tue, 28 Apr 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Kiosques, billetterie et terminaux d'enregistrement : écrans tactiles de 7 à 10 pouces pour un usage public 24/7, laminage complet, verre résistant et tactile avec doigts mouillés et gantés.</description>
+  </item>
+  <item>
+    <title>Remplacement de LCD abandonnés</title>
+    <link>https://odmlcd.com/fr/blog/legacy-lcd-drop-in-replacement</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/legacy-lcd-drop-in-replacement</guid>
+    <pubDate>Mon, 20 Apr 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Pourquoi la fin de vie est une urgence pour les OEM — Fournisseur de modules TFT LCD et prestataire de services standards. 0,96″–21,5″, IPS / haute…</description>
+  </item>
+  <item>
+    <title>Gradation sans scintillement : PWM ou analogique pour les caméras</title>
+    <link>https://odmlcd.com/fr/blog/lcd-backlight-flicker-dimming-methods</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/lcd-backlight-flicker-dimming-methods</guid>
+    <pubDate>Thu, 02 Apr 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Le scintillement vient de la modulation du rétroéclairage, pas du LCD : PWM à faible rapport crée des bandes en caméra rolling shutter, la gradation analogique/DC reste continue.</description>
+  </item>
+  <item>
+    <title>Défaut Mura LCD : méthode QC et critères d’acceptation</title>
+    <link>https://odmlcd.com/fr/blog/lcd-mura-defect-explained</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/lcd-mura-defect-explained</guid>
+    <pubDate>Tue, 24 Feb 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Mura = non-uniformité de luminance ou de couleur sans bord net. Méthode QC en salle sombre, zones A/B/C, limites de contraste et plan d’échantillonnage AQL.</description>
+  </item>
+  <item>
+    <title>Remplacement ZJ050NA-08C : 5,0 pouces 640x480 RGB</title>
+    <link>https://odmlcd.com/fr/blog/zj050na-08c-replacement</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/zj050na-08c-replacement</guid>
+    <pubDate>Fri, 13 Feb 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Le ZJ050NA-08C est un module TFT 5,0 pouces 640x480 RGB. RONEN DISPLAY fournit de vrais remplaçants directs de la même classe (RG-T050QGH-01 et RG-T050QGH-02) : logiciel driver, tensions et courants inchangés.</description>
+  </item>
+  <item>
+    <title>Guide du remplacement direct TFT LCD : 11 panneaux</title>
+    <link>https://odmlcd.com/fr/blog/tft-lcd-drop-in-replacement-guide</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/tft-lcd-drop-in-replacement-guide</guid>
+    <pubDate>Sun, 11 Jan 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Quand un panneau TFT industriel arrive en fin de vie, un remplacement direct préserve votre conception mécanique et votre firmware. Ce guide relie 11 panneaux fréquemment recherchés aux remplaçants RONEN DISPLAY équivalents en taille, résolution et interface.</description>
+  </item>
+  <item>
+    <title>Rétention d’image LCD : causes et solutions</title>
+    <link>https://odmlcd.com/fr/blog/lcd-image-retention-burn-in</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/lcd-image-retention-burn-in</guid>
+    <pubDate>Sat, 10 Jan 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Pourquoi les IHM statiques provoquent une rétention d’image LCD (et non un burn-in OLED), le mécanisme de polarisation DC des pixels, et les solutions d’ingénierie : inversion, décalage de pixels, économiseur d’écran.</description>
+  </item>
+  <item>
+    <title>Écrans pour produits embarqués</title>
+    <link>https://odmlcd.com/fr/blog/case-vehicle-display-dashcam-monitor</link>
+    <guid isPermaLink="true">https://odmlcd.com/fr/blog/case-vehicle-display-dashcam-monitor</guid>
+    <pubDate>Fri, 09 Jan 2026 01:00:00 GMT</pubDate>
+    <category><![CDATA[Guide]]></category>
+    <description>Écrans de véhicule en cabine : 80 °C à −20 °C, 12 V avec pics, vibration et soleil direct. IPS tactile 2,7 à 3,5 pouces en dashcam et 7 pouces en moniteur ; gamme auto, large tension et laminage.</description>
+  </item>
+</channel>
+</rss>

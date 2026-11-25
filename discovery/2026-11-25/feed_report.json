@@ -1,0 +1,26 @@
+[
+ {
+  "lang": "en",
+  "file": "feed-en.xml",
+  "eligible": 201,
+  "written": 50,
+  "oldest": "2026-10-24",
+  "newest": "2026-11-18",
+  "bytes": 29181,
+  "badLinks": 0,
+  "priceHits": 1,
+  "phoneHits": 0
+ },
+ {
+  "lang": "fr",
+  "file": "feed-fr.xml",
+  "eligible": 113,
+  "written": 50,
+  "oldest": "2026-01-09",
+  "newest": "2026-11-07",
+  "bytes": 30928,
+  "badLinks": 0,
+  "priceHits": 4,
+  "phoneHits": 0
+ }
+]
