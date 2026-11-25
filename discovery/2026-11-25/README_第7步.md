@@ -58,7 +58,7 @@ Sitemap: https://odmlcd.com/sitemap-landings-index.xml   200  974 B
 | wlw | `/en/register` → **202** | 可达，需邮箱/电话验证 |
 | ThomasNet | `/supplierregistration.html` → **404** | 路径已变，需站内导航 |
 
-**所以凡有 captcha / 邮件验证 / 人工审核的一律跳过自动提交**，没有任何一家提供免登录 API。需要你自己动手的清单（按性价比排，账号注册邮箱统一用 `charliel@agent.qq.com`，而**公开展示字段一律填 `sales@odmlcd.com`**；电话只填平台后台字段，公开可见处不出现明文）：
+**所以凡有 captcha / 邮件验证 / 人工审核的一律跳过自动提交**，没有任何一家提供免登录 API。需要你自己动手的清单（按性价比排，注册邮箱与公开展示邮箱一律 `sales@odmlcd.com`（2026-11-25 更正，不用个人邮箱注册目录账号）；电话只填平台后台字段，公开可见处不出现明文）：
 
 | 顺序 | 平台 | 你要做的动作 | 需要点的验证 |
 |---:|---|---|---|
@@ -85,3 +85,38 @@ Sitemap: https://odmlcd.com/sitemap-landings-index.xml   200  974 B
 1. 两个 RSS 文件是否上线（上线需 robots 追加 2 行；栏目页 `<link rel=alternate>` 可等解冻批）。
 2. Bing Webmaster 的 sitemap 重提仍需你登录手动做一次（本机 API 404）。
 3. 目录注册按上表推进，12 家一次做完约 4–5 小时，可分两天。
+
+### d-2) 注册入口自动化可行性实测（2026-11-25 22:0x，本机 curl + 浏览器 UA + 跟随跳转）
+
+| 平台 | 注册入口最终 URL | HTTP | 字节 | 判定 |
+|---|---|---:|---:|---|
+| Europages | /business/signup | 202 | 0 | Cloudflare 挑战未过，表单未返回 |
+| wlw | /en/register | 202 | 0 | 同上 |
+| ThomasNet | /thomas-auth/signup | 403 | 773 | 挑战页，页面含 captcha 字样 |
+| Kompass | /en/#/add-company | 403 | 771 | 挑战页，含 captcha 字样 |
+| Manta | /cbid.add | 403 | 5,658 | 挑战页，含 captcha 字样 |
+| DirectIndustry | /register-manufacturer.html | 403 | 5,698 | 挑战页 |
+| IndustryStock | /en/company/register | 403 | 5,658 | 挑战页 |
+| Brownbook | /add-business/ | 403 | 5,628 | 挑战页 |
+| Hotfrog | /businesses/add | 404 | 33,256 | 原路径已失效，需站内导航进入 |
+| Global Sources | supplier.globalsources.com | 200 | 942 | 纯 JS 外壳，字段前端渲染 |
+
+**结论（不粉饰）**：10 个入口在本机 **0 个能拿到可提交的 HTML 表单**——不是被 Cloudflare 挑战（403/202），就是 JS 单页外壳，或路径已变。所以「把注册替你做完」这件事我用 HTTP 做不到，和「有验证码就跳过」是同一类拦路。我能替你做完的部分已经做完：字段、NAP、三版描述、类目、素材清单、提交后动作，全部配成复制即粘的执行包（见 `bridge_outreach_2026-11-25/04_目录注册执行包_2026-11-25.md`）。
+
+### d-3) 收信链路实测（决定验证码由谁取）
+
+- `odmlcd.com` 的 MX = **mx1.yunyou.top / mx2.yunyou.top**（第三方企业邮，不是 Google、也不是 Cloudflare Email Routing），NS 在 Cloudflare。
+- Cloudflare Email Routing 的三个接口（settings / rules / destination_addresses）用现有 token 返回 **code 10000 Authentication error**（该 token 只授权到 DNS 记录），所以**我查不到也读不到该域名的邮件路由**。
+- 钉钉邮箱通道未连接：`dws mail +list` 返回「DingTalk authorization is incomplete or has expired」。
+- 因此 `sales@odmlcd.com` 的验证码由你在 Yunyou 网页邮箱查看后贴回给我；我不会去碰你的邮箱密码或凭据。你贴回后我立刻做完该平台剩余字段与终稿；最后的「提交」点击仍需你在浏览器完成（表单被 bot 保护）。
+
+### d-4) 邮箱口径更正（主子 2026-11-25 指令）
+
+**目录/收录入口的注册邮箱与公开展示邮箱一律 `sales@odmlcd.com`**，不使用个人邮箱注册任何目录账号。本目录及 `bridge_outreach_2026-11-25/01_B2B目录12家_照做清单.md` 已按此统一。
+
+### d-5) 账号与密码存放（落实「不进 git」）
+
+- **不放 `trends/`**：该目录被 git 跟踪，写进去就会随下次提交进仓库并推到 GitHub。
+- 实际位置：`C:\Users\admin\.odmlcd_secrets\directories_accounts_2026-11-25.md`（仓库外，且随 E 盘备份另存一份）。
+- 每家只记：平台 / 用户名 / 注册邮箱 `sales@odmlcd.com` / 密码保管位置（建议系统凭据管理器或你的密码库，文件里只放索引不放明文密码）/ 两步验证方式 / 提交日期 / 目录页 URL / 该页链接是否 nofollow / 审核状态。
+- 若你坚持放在 `trends/`，需要先给 `.gitignore` 增加一行忽略（这属于仓库文件改动，等你明示我再动）。
