@@ -1,0 +1,188 @@
+{
+ "stats": {
+  "slugs": 16,
+  "newFr": 16,
+  "updatedExisting": 62,
+  "missingOtherLangInSitemap": []
+ },
+ "slugLangMatrix": [
+  {
+   "slug": "display-backlight-not-working-diagnosis",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "high-humidity-condensation-display-prevention",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-backlight-flicker-dimming-methods",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-backlight-led-life",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-colour-shift-viewing-angle-wide-tft",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-image-retention-burn-in",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "pt",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-mura-defect-explained",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-panel-storage-shelf-life",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "lcd-power-sequence-timing-requirements",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "mcu-8080-parallel-interface-tft-guide",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "pt",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "nec-lcd-replacement-guide",
+   "langs": [
+    "en",
+    "fr",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "tft-backlight-led-lifetime-dimming-guide",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "pt",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "tft-display-adapter-converter-board-guide",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "tft-firmware-otp-burning-guide",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "tft-lcd-vs-lcd-meaning",
+   "langs": [
+    "en",
+    "es",
+    "de",
+    "fr"
+   ],
+   "lastmod": "2026-11-25"
+  },
+  {
+   "slug": "vertical-horizontal-lines-panel-vs-board",
+   "langs": [
+    "en",
+    "de",
+    "fr",
+    "pt",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hant"
+   ],
+   "lastmod": "2026-11-25"
+  }
+ ]
+}
